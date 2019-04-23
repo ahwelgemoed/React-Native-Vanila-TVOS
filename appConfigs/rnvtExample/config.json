@@ -1,0 +1,128 @@
+{
+  "id": "rnvtExample",
+  "common": {
+    "id": "dev.ahwelgemoed.test",
+    "title": "Test",
+    "description": "Cross-platform application project based on React Native Vanilla",
+    "author": {
+      "name": "Pavel Jacko",
+      "email": "Pavel Jacko <i@pavjacko.com>",
+      "url": "https://github.com/pavjacko"
+    },
+    "license": "MIT",
+    "includedPlugins": [
+      "*"
+    ],
+    "includedFonts": [
+      "*"
+    ]
+  },
+  "platforms": {
+    "ios": {
+      "entryFile": "index.ios",
+      "teamID": "PRNK99PXGZ",
+      "permissions": [
+        "APPLE_MUSIC",
+        "BLUETOOTH",
+        "CALENDAR",
+        "CAMERA"
+      ],
+      "buildSchemes": {
+        "debug": {
+          "id": "reactnativevanilla.helloworld.debug",
+          "scheme": "RNVApp",
+          "runScheme": "Debug"
+        },
+        "release": {
+          "scheme": "RNVAppRelease",
+          "runScheme": "Release"
+        }
+      }
+    },
+    "tvos": {
+      "entryFile": "index.tvos",
+      "teamID": "PRNK99PXGZ",
+      "runScheme": "Debug",
+      "buildSchemes": {
+        "debug": {
+          "id": "reactnativevanilla.helloworld.debug",
+          "scheme": "RNVAppTVOS",
+          "runScheme": "Debug"
+        },
+        "release": {
+          "scheme": "RNVAppTVOSRelease",
+          "runScheme": "Release"
+        }
+      }
+    },
+    "android": {
+      "entryFile": "index.android",
+      "permissions": [
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW"
+      ],
+      "buildSchemes": {
+        "debug": {
+          "id": "reactnativevanilla.helloworld.debug"
+        },
+        "release": {}
+      }
+    },
+    "androidtv": {
+      "entryFile": "index.androidtv",
+      "permissions": [
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW"
+      ],
+      "buildSchemes": {
+        "debug": {
+          "id": "reactnativevanilla.helloworld.debug"
+        },
+        "release": {}
+      }
+    },
+    "androidwear": {
+      "entryFile": "index.androidwear",
+      "permissions": [
+        "WAKE_LOCK",
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW"
+      ],
+      "buildSchemes": {
+        "debug": {
+          "id": "reactnativevanilla.helloworld.debug"
+        },
+        "release": {}
+      }
+    },
+    "macos": {
+      "entryFile": "index.macos"
+    },
+    "tizen": {
+      "appName": "RNVanillaTV",
+      "package": "NcVRhWHJST",
+      "id": "NcVRhWHJST.RNVanillaTV",
+      "entryFile": "index.tizen",
+      "certificateProfile": "RNVanillaCert"
+    },
+    "tizenwatch": {
+      "appName": "RNVanillaWatch",
+      "package": "cHIP2fIRQZ",
+      "id": "cHIP2fIRQZ.RNVanillaWatch",
+      "entryFile": "index.tizenwatch",
+      "certificateProfile": "RNVanillaCert"
+    },
+    "web": {
+      "entryFile": "index.web"
+    },
+    "webos": {
+      "entryFile": "index.webos"
+    },
+    "windows": {
+      "entryFile": "index.windows"
+    },
+    "kaios": {
+      "entryFile": "index.kaios"
+    }
+  }
+}

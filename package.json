@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "defaultAppId": "dev.ahwelgemoed.test",
+  "defaultAppConfigId": "rnvtExample",
+  "title": "Test",
+  "version": "0.1.0",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react-native-easy-grid": "^0.2.1",
+    "react-native-gesture-handler": "github:kmagiera/react-native-gesture-handler",
+    "react-native-pulse": "^1.0.7",
+    "react-native-websocket": "^1.0.2",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "react-native-vanilla": "0.17.7"
+  }
+}
